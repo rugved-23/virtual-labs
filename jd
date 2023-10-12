@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The querySelector() Method</h2>
+
+<p>Change the text of the first p element in "myDIV":</p>
+
+<div id="myDIV" style="border:1px solid black;padding:8px">
+  <h1>This is a p element.</h1>
+  <h2>This is also a p element.</h2>
+</div>
+
+<script>
+const x = document.getElementById("myDIV");
+x.querySelector("h1").innerHTML = "Hello World!";
+</script>
+
+</body>
+</html>
